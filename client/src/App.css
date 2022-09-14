@@ -1,0 +1,37 @@
+th {
+  color: gray;
+  font-size: 1.1vw;
+  padding: 1rem 0.5rem !important;
+  white-space: nowrap;  
+}
+th span {
+  padding-left: 5px;
+}
+.invisible th {
+  color: gray;
+  font-size: 12px;
+  padding: 1rem 0.2rem !important;
+  white-space: nowrap;  
+}
+td {
+  border-bottom-width: 3px !important;
+  font-size: 1.1vw;
+  padding: 1rem 0.5rem !important;
+}
+.invisible td {
+  font-size: 12px;
+  padding: 1rem 0.2rem !important;
+}
+.inactive {
+  opacity: 30%;
+}
+.active {
+  opacity: 100%;
+}
+.dots {
+  padding: 1rem 0rem !important;
+  width: 0px;
+}
+.badge {
+  padding: 0.5em 1.5em !important;
+}
