@@ -1,4 +1,4 @@
-# Dev Job Assessment Test - MERN Stack
+# Dev Job Assessment Test - MERN Stack + CI/CD
 
 1. DevOps challenge - in an azure DevOps account, connect a repo and add a pipeline that publishes an artifact, the pipeline is triggered by changes to the repo
 2. Dev challenge - implement one page with a responsive table, get data with NodeJS backend from MongoDB, data in table is sortable ASC/DESC by each column, and the table can be downloaded as a PDF file

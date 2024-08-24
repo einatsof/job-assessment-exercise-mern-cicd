@@ -1,8 +1,10 @@
 const express = require('express');
 const cors = require("cors");
 const { MongoClient } = require('mongodb');
+require('dotenv').config();
 
-const uri = "mongodb+srv://XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.mongodb.net/test";
+
+const uri = `mongodb+srv://${process.env.MONGODB_USERPASS}@${process.env.MONGODB_CLUSTER}.mongodb.net/test`;
  
 const app = express();
 app.use(cors());
